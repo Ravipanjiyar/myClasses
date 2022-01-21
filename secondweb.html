@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        body {
+            font-family: 'Pacifico', cursive;
+            background-image: url('bg1.jpg');
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: center center; */
+        }
+
+        header {
+            display: flex;
+            position: sticky;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .form {
+            background-image: url(from.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: inline-block;
+            border: 4px solid wheat;
+            margin: 238px 57px;
+            padding: 47px;
+            width: 34%;
+            border-radius: 28px;
+        }
+
+        .form h1 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .form h1 span {
+            color: red;
+        }
+
+        .form input {
+            text-align: center;
+            font-weight: bold;
+            display: block;
+            background-color: #e3b0b0;
+            width: 289px;
+            padding: 1px;
+            border: 2px solid rgb(247 0 0);
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 9px;
+        }
+
+        .container {
+            display: flex;
+            /* border: 2px solid red; */
+            position: relative;
+            top: -504px;
+            height: 379px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+        .left {
+            display: inline-block;
+            line-height: 59px;
+
+        }
+
+        .left div {
+            font-family: 'Pacifico', cursive;
+            position: relative;
+            text-align: center;
+            left: 13px;
+            font-size: 42px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+
+        }
+
+        .left img {
+            width: 434px;
+            border-radius: 488px;
+            left: 1px;
+            position: relative;
+            top: 20px;
+            cursor: pointer;
+            /* filter: invert(100%); */
+        }
+
+        .mid {
+            display: inline-block;
+            position: absolute;
+            left: 253px;
+            top: 28px;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 42px;
+            top: 42px;
+
+
+        }
+
+        .btn {
+            font-family: 'Pacifico', cursive;
+            background-color: rgb(153 81 81);
+            color: white;
+            border: 5px solid rgb(211 56 56);
+            border-radius: 29px;
+            border-right: 20px;
+            font-size: 19px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            color: gold;
+            box-shadow: 2px 5px 15px rgb(149, 0, 255);
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            padding: 10px 21px;
+            font-size: 29px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fbae00;
+        }
+
+        .navbar li a:hover {
+            color: white;
+        }
+
+        .leftbox {
+            display: inline-block;
+            position: absolute;
+            left: 82px;
+            top: 12px;
+            width: 200px;
+
+        }
+
+        .leftbox img {
+            /* position: relative; */
+            border-radius: 488px;
+            width: 107px;
+            cursor: pointer;
+            filter: invert(100%);
+            box-shadow: 2px 5px 15px rgb(247, 1, 255);
+        }
+
+        .leftbox div {
+            cursor: pointer;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 23px;
+        }
+
+        .cont {
+            display: flex;
+            padding: 0px 53px;
+            /* align-items: center; */
+        }
+
+        .text {
+            border: 4px solid rgb(255, 255, 255);
+            border-radius: 28px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSfjaslJ4mFfyjufW5nGynhvpe_XykHsFPkA&usqp=CAU');
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: inline-block;
+            position: relative;
+            top: 222px;
+            font-size: 24px;
+            text-align: center;
+            width: 716px;
+            height: 403px;
+            margin: 12px;
+        }
+
+        .text h2 {
+            color: white;
+            position: relative;
+            top: -5px;
+        }
+
+        .text h2 span {
+            color: #fff700;
+            cursor: pointer;
+        }
+
+        .form button {
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 289px;
+            text-align: center;
+            position: relative;
+            left: 33px;
+            color: white;
+            background-color: darkblue;
+            margin: 4px;
+            padding: 2px;
+
+        }
+
+        .photo {
+            /* size: 244px; */
+            font-size: 25px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="leftbox">
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUi-crejjlPQkBDwlHT0xFCIOly5WDT4Bng&usqp=CAU"
+                    alt="">
+            </div>
+            <div>
+                GAUR CLASSES
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Classes</a> </li>
+                <li> <a href="#">Timings</a> </li>
+                <li> <a href="#">Past recordings</a> </li>
+                <li> <a href="#">Appointment</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Sign Up/Register now</button>
+        </div>
+    </header>
+    <section class="cont">
+
+        <div class="form">
+            <h1>JOIN <span>Classes</span></h1>
+            <form action="noaction.php">
+                <div class="form_group">
+                    <input type="text" placeholder="Enter your name">
+
+                </div>
+                <div class="form_group">
+                    <input type="text" placeholder="Enter your class">
+
+                </div>
+                <div class="form_group">
+
+                    <input type="text" placeholder="Enter your phone no">
+                </div>
+                <div class="form_group">
+
+                    <input type="text" placeholder="Enter your Locality">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="text">
+            <h2>WELCOME TO <span>GAUR CLASSES</span></h2>
+            <div class="photo">
+                <!-- <img src="1.jpg" alt=""> -->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi doloribus sapiente ipsa aliquam facilis
+                maxime id perspiciatis, blanditiis voluptatum! Dolor nobis omnis illum pariatur.
+            </div>
+    </section>
+    <!-- <img src="1.jpg" alt=""> -->
+    </div>
+    <!-- <div class="container">
+        <div class="left">
+            <img src="https://imgr.search.brave.com/LSrg2drgrVUs_-__j5WenPUb8Nhrgfpu6qJ7GLQ74-4/fit/474/225/ce/1/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5V/Tl8wMjR1NXhRYkta/Q2oyNjlacE93SGFI/YSZwaWQ9QXBp"
+                alt="">
+            <div>
+                GAUR CLASSES
+            </div>
+        </div>
+
+    </div> -->
+
+</body>
+
+</html>
